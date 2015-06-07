@@ -1,0 +1,57 @@
+---
+layout: post
+title: the-1st-post
+tags: octopress3.0 rifyll-theme
+date: 2015-05-24T00:24:21+08:00
+---
+Hi people, I choose [Octopress 3](http://octopress.org/) and theme it with [rifyll][rifyll] as my personal cat-style blog. This `blogging framework for hacker` cool known for programmers blog about their ideas. Octopress features - <!--- [(more)](/blog{% post_url 2015-05-24-the-1st-post %}) -->
+
++ Pygments syntax highlighting & Markdown based posts
++ Out of the box support for publishing straight to GitHub pages
++ Built in support for third-party services like Google Analytics 
+
+**Installation steps:**
+
+`step 1` Install Jekyll and Octopress 3.
+{% highlight bash linenos %}
+# Installing Octopress 3 automatically installs Jekyll as a dependency.
+$ gem install octopress
+{% endhighlight %}
+
+`step 2` Download [Rifyll][rifyll] themed Octopress blog scaffold.
+
+`step 3` Cd to Rifyll directory & New a post
+{% highlight bash linenos %}
+# This generates a new post yyyy-mm-dd-title.markdown under `_post`.
+$ cd rifyll-master
+$ octopress new post "title"
+{% endhighlight %}
+
+`step 4` Build _site
+{% highlight bash linenos %}
+# This builds a blog site dir under `_site`.
+$ jekyll build
+{% endhighlight %}
+
+`(optional)` `step 5` Preview locally (**NOTE** before deployment please kill this process)
+{% highlight bash linenos %}
+# This runs a server up at port 4000.
+# Server address: http://127.0.0.1:4000/
+$ jekyll serve &
+{% endhighlight %}
+
+`step 6` Set up deployment of website to GitHub
+{% highlight bash linenos %}
+# setup method of deployment to github
+$ octopress deploy init git --url git@github.com:NAME/NAME.github.io.git
+{% endhighlight %}
+
+`step 7` Deploy the built website
+{% highlight bash linenos %}
+# deploy built site
+$ octopress deploy
+{% endhighlight %}
+
+`finish step` You'd see this. Done.
+
+[rifyll]:      https://github.com/itsrifat/rifyll

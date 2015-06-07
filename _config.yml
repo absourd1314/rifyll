@@ -1,0 +1,43 @@
+# Site settings
+title: Forget Past, Think Future.
+email: liangting.yeh@gmail.com
+description: "Simple Life"
+logo_location: "http://www.catchannel.com/images/articles/catfancy/june_2007/0706MediaCat.jpg"
+
+# fb
+fb_logo: "https://www.facebook.com/images/fb_icon_325x325.png"
+fb_url: "https://www.facebook.com/yeh.charles1314"
+fb_ac: "yeh.charles1314"
+
+# ig
+ig_logo: "https://lh3.ggpht.com/vFpQP39LB60dli3n-rJnVvTM07dsvIzxrCL5xMiy1V4GV4unC1ifXkUExQ4N-DBCKwI=w300"
+ig_url: "https://instagram.com/yehcharles1314/"
+ig_ac: "yehcharles1314"
+
+# twitter
+twitter_logo: "https://g.twimg.com/ios_homescreen_icon.png"
+twitter_url: "https://twitter.com/absourd1314"
+twitter_ac: "absourd1314"
+
+# soundcloud
+soundcloud_logo: "http://www.vectorsland.com/imgd/l75667-soundcloud-logo-63098.png"
+soundcloud_url: "https://soundcloud.com/c_yeh"
+soundcloud_ac: "c_yeh"
+
+#pinterest
+pinterest_logo: "http://a5.mzstatic.com/us/r30/Purple7/v4/ca/0a/0f/ca0a0f76-b54c-d806-c303-4e5a0f3cfda6/icon320x320.png"
+pinterest_url: "https://www.pinterest.com/yehcharles1314/"
+pinterest_ac: "yehcharles1314"
+
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://absourd1314.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: pygments
+
+# Other Global Configuration
+exclude: ['README.md']
